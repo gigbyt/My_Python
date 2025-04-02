@@ -36,3 +36,9 @@ def divide_numbers(n1, n2):
         return Result_divided
     except Exception as e:
         print("invalid input")
+
+def fibonacci_numbers (n):
+    fibonacci_seiries = [0, 1]
+    while len(fibonacci_seiries) < n:
+        fibonacci_seiries.append(fibonacci_seiries[-1] + fibonacci_seiries[-2])
+    return fibonacci_seiries
