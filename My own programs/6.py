@@ -1,7 +1,10 @@
-import sys
-sys.path.append('D:/My FILES (Sharable)/Python')  # Adjust the path to your package location
-from My_Package import Arithmatical
-n = int(input("What will be the the range? "))
-Result = Arithmatical.fibonacci_numbers(n)
-print(f"these are the first {n} terms : ") 
+def fibonacci_numbers(n):
+  fib_series = []
+  a, b = 0, 1
+  for _ in range(n):
+    fib_series.append(a)
+    a, b = b, a + b
+  return fib_series
+
+Result = fibonacci_numbers(n)
 print(Result)
