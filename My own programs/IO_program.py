@@ -1,4 +1,4 @@
-# It will gwnerate a file name text.txt in your file directory that you are coding in
+# It will generate a file name text.txt in your file directory that you are coding in
 # r – open for reading
 # w - open for writing
 # a - open for appending

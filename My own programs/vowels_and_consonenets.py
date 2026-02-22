@@ -7,4 +7,5 @@ for ch in s:
             v += 1
         else:
             c += 1
-print(f"Number of vowels : {v}     Number of consonents : {c}")
+print(f'''Number of vowels : {v}  
+Number of consonents : {c}''')
