@@ -1,5 +1,5 @@
 import sys
-sys.path.append('D:/My FILES (Sharable)/Python')
+sys.path.append('E:/My FILES (Sharable)/Python')
 from My_Package import Money
 
 P = int(input("Enter the principal amount: "))
